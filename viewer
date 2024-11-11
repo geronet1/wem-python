@@ -1,0 +1,4 @@
+#!/bin/bash -x
+
+python -m can.viewer -c can0 -i socketcan -d filter.txt -f 003:00F
+

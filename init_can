@@ -1,0 +1,6 @@
+#!/bin/bash -x
+
+sudo ip link set can0 up type can bitrate 50000 listen-only off
+ip addr
+
+ip -s -d link show can0
